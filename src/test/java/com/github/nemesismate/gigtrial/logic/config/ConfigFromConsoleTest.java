@@ -50,7 +50,7 @@ public class ConfigFromConsoleTest {
         whenGather();
 
         thenTheGameConfigContainsGivenMatchMode();
-        thenTheGameConfigContainsGivenOuputMode();
+        thenTheGameConfigContainsGivenOutputMode();
     }
 
     @Test
