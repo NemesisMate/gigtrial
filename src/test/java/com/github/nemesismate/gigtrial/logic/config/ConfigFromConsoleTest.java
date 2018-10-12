@@ -296,7 +296,7 @@ public class ConfigFromConsoleTest {
         assertEquals(givenMatchMode, returnedConfig.getMatchMode());
     }
 
-    private void thenTheGameConfigContainsGivenOuputMode() {
+    private void thenTheGameConfigContainsGivenOutputMode() {
         assertNotNull(givenOutputMode);
         assertEquals(givenOutputMode, returnedConfig.getOutputMode());
     }
